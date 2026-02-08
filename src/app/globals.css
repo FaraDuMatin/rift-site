@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ededed;
+  --foreground: #0a0a0a;
+  
+  /* Color Palette */
+  --blue-main: #52AEF0;
+  --blue-dark: #2E7AB8;
+  --blue-light: #acd7f6;
+  --bg-footer: #05222e;
 }
 
 @theme inline {
@@ -10,12 +16,18 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* Custom blue colors */
+  --color-blue-main: #52AEF0;
+  --color-blue-dark: #2E7AB8;
+  --color-blue-light: #7DC4F5;
+  --color-bg-footer: #05222e;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ededed;
+    --foreground: #0a0a0a;
   }
 }
 
@@ -23,4 +35,9 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Account for fixed navbar height */
 }
