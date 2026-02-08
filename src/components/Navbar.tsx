@@ -4,9 +4,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { User, Menu, X } from 'lucide-react';
+import LogIn from './auth/LogIn';
+import SignIn from './auth/SignIn';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [authModal, setAuthModal] = useState<'login' | 'signin' | null>(null);
   const pathname = usePathname();
 
   const scrollToSection = (sectionId: string) => {
@@ -18,6 +21,7 @@ export default function Navbar() {
   };
 
   return (
+    <>
     <nav 
       className="fixed top-0 z-50 w-full px-6 py-1"
       style={{
@@ -64,13 +68,13 @@ export default function Navbar() {
           )}
           
           {/* Inscription Button */}
-          <Link 
-            href="/inscription" 
-            className="flex items-center gap-2 px-6 py-2 bg-blue-main border border-black shadow-md hover:shadow-[0_0_1px_2px_cyan] hover:scale-105 hover:border-transparent rounded-md transition-all text-white font-medium"
+          <button 
+            onClick={() => setAuthModal('login')}
+            className="flex items-center gap-2 px-6 py-2 bg-blue-main border border-black shadow-md hover:shadow-[0_0_1px_2px_cyan] hover:scale-105 hover:border-transparent rounded-md transition-all text-white font-medium cursor-pointer"
           >
             <User className="text-white w-6 h-6" />
-            <span className="text-white text-lg font-medium">Inscription</span>
-          </Link>
+            <span className="text-white text-lg font-medium">Connexion</span>
+          </button>
         </div>
 
         {/* Mobile Hamburger Button */}
@@ -108,17 +112,34 @@ export default function Navbar() {
           </button>
           </>
           )}
-          {/* Mobile Inscription Button */}
-          <Link 
-            href="/inscription"
-            onClick={() => setIsMenuOpen(false)}
-            className="flex items-center justify-center gap-2 px-6 py-2 bg-blue-main border border-black shadow-md rounded-md text-white font-medium"
+          {/* Mobile Connexion Button */}
+          <button 
+            onClick={() => {
+              setIsMenuOpen(false);
+              setAuthModal('login');
+            }}
+            className="flex items-center justify-center gap-2 w-full px-6 py-2 bg-blue-main border border-black shadow-md rounded-md text-white font-medium cursor-pointer"
           >
             <User className="text-white w-6 h-6" />
-            <span className="text-white text-lg font-medium">Inscription</span>
-          </Link>
+            <span className="text-white text-lg font-medium">Connexion</span>
+          </button>
         </div>
       )}
     </nav>
+
+      {/* Auth Modals */}
+      {authModal === 'login' && (
+        <LogIn
+          onClose={() => setAuthModal(null)}
+          onSwitchToSignIn={() => setAuthModal('signin')}
+        />
+      )}
+      {authModal === 'signin' && (
+        <SignIn
+          onClose={() => setAuthModal(null)}
+          onSwitchToLogIn={() => setAuthModal('login')}
+        />
+      )}
+    </>
   );
 }
