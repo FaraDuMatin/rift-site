@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useUser, useClerk } from '@clerk/nextjs';
-import { User, Menu, X, LayoutDashboard, LogOut } from 'lucide-react';
+import { User, Menu, X, LogOut } from 'lucide-react';
 import { motion } from 'motion/react';
 import LogIn from './auth/LogIn';
 import SignIn from './auth/SignIn';
@@ -79,9 +79,9 @@ export default function Navbar() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <LayoutDashboard className="w-5 h-5" />
+                  {/* <LayoutDashboard className="w-5 h-5" /> */}
                   <span className="text-lg font-medium">
-                    {user.firstName || 'Dashboard'}
+                    {'Tableau de bord'}
                   </span>
                 </motion.div>
               </Link>
@@ -151,8 +151,8 @@ export default function Navbar() {
                 onClick={() => setIsMenuOpen(false)}
                 className="flex items-center justify-center gap-2 w-full px-6 py-2 bg-blue-main border border-black shadow-md rounded-md text-white font-medium"
               >
-                <LayoutDashboard className="w-5 h-5" />
-                <span className="text-lg font-medium">{user.firstName || 'Dashboard'}</span>
+                {/* <LayoutDashboard className="w-5 h-5" /> */}
+                <span className="text-lg font-medium">{'Tableau de bord'}</span>
               </Link>
               <button
                 onClick={() => { signOut(); setIsMenuOpen(false); }}
