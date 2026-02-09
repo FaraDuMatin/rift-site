@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { MapPin } from 'lucide-react';
+import { motion } from 'motion/react';
 
 interface DestinationProps {
   name: string;
@@ -11,9 +12,14 @@ interface DestinationProps {
 
 export default function Destination({ name, description, imageUrl, highlights, href = '#' }: DestinationProps) {
   return (
-    <a 
+    <motion.a 
       href={href}
-      className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block"
+      className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 block"
+      initial={{ opacity: 0, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true, margin: "-50px" }}
+      transition={{ duration: 0.5 }}
+      whileHover={{ y: -8 }}
     >
       {/* Image */}
       <div className="aspect-4/3 overflow-hidden">
@@ -51,6 +57,6 @@ export default function Destination({ name, description, imageUrl, highlights, h
           ))}
         </div>
       </div>
-    </a>
+    </motion.a>
   );
 }

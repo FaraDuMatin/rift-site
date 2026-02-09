@@ -1,5 +1,6 @@
 import { LucideIcon } from 'lucide-react';
 import { ReactNode } from 'react';
+import { motion } from 'motion/react';
 
 interface CardProps {
   icon: LucideIcon;
@@ -14,11 +15,22 @@ interface CardProps {
 
 export default function Card({ icon: Icon, title, description, features, button }: CardProps) {
   return (
-    <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all transform hover:-translate-y-2 duration-300">
+    <motion.div 
+      className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-100px" }}
+      transition={{ duration: 0.6 }}
+      whileHover={{ y: -8 }}
+    >
       {/* Icon */}
-      <div className="w-16 h-16 bg-blue-light/30 rounded-2xl flex items-center justify-center mb-6">
+      <motion.div 
+        className="w-16 h-16 bg-blue-light/30 rounded-2xl flex items-center justify-center mb-6"
+        whileHover={{ rotate: 5, scale: 1.1 }}
+        transition={{ duration: 0.3 }}
+      >
         <Icon className="w-8 h-8 text-blue-dark" strokeWidth={2} />
-      </div>
+      </motion.div>
 
       {/* Title */}
       <h3 className="text-2xl font-bold text-gray-900 mb-4">
@@ -42,13 +54,15 @@ export default function Card({ icon: Icon, title, description, features, button 
 
       {/* Optional Button */}
       {button && (
-        <a
+        <motion.a
           href={button.href}
-          className="block w-full text-center px-6 py-3 bg-blue-light text-white font-medium rounded-xl transition-all hover:bg-blue-main"
+          className="block w-full text-center px-6 py-3 bg-blue-light text-white font-medium rounded-xl transition-colors hover:bg-blue-main"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
         >
           {button.text}
-        </a>
+        </motion.a>
       )}
-    </div>
+    </motion.div>
   );
 }

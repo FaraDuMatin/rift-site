@@ -3,7 +3,9 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { User, Menu, X } from 'lucide-react';
+import { useUser, useClerk } from '@clerk/nextjs';
+import { User, Menu, X, LayoutDashboard, LogOut } from 'lucide-react';
+import { motion } from 'motion/react';
 import LogIn from './auth/LogIn';
 import SignIn from './auth/SignIn';
 
@@ -11,6 +13,8 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [authModal, setAuthModal] = useState<'login' | 'signin' | null>(null);
   const pathname = usePathname();
+  const { isSignedIn, user, isLoaded } = useUser();
+  const { signOut } = useClerk();
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -67,14 +71,41 @@ export default function Navbar() {
             </>
           )}
           
-          {/* Inscription Button */}
-          <button 
-            onClick={() => setAuthModal('login')}
-            className="flex items-center gap-2 px-6 py-2 bg-blue-main border border-black shadow-md hover:shadow-[0_0_1px_2px_cyan] hover:scale-105 hover:border-transparent rounded-md transition-all text-white font-medium cursor-pointer"
-          >
-            <User className="text-white w-6 h-6" />
-            <span className="text-white text-lg font-medium">Connexion</span>
-          </button>
+          {isLoaded && isSignedIn ? (
+            <div className="flex items-center gap-4">
+              <Link href="/dashboard">
+                <motion.div
+                  className="flex items-center gap-2 px-6 py-2 bg-blue-main border border-black shadow-md hover:shadow-[0_0_1px_2px_cyan] hover:border-transparent rounded-md transition-all text-white font-medium cursor-pointer"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <LayoutDashboard className="w-5 h-5" />
+                  <span className="text-lg font-medium">
+                    {user.firstName || 'Dashboard'}
+                  </span>
+                </motion.div>
+              </Link>
+              <motion.button
+                onClick={() => signOut()}
+                className="p-2 text-gray-500 hover:text-red-500 transition-colors"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                title="Se déconnecter"
+              >
+                <LogOut className="w-5 h-5" />
+              </motion.button>
+            </div>
+          ) : (
+            <motion.button 
+              onClick={() => setAuthModal('login')}
+              className="flex items-center gap-2 px-6 py-2 bg-blue-main border border-black shadow-md hover:shadow-[0_0_1px_2px_cyan] hover:border-transparent rounded-md transition-all text-white font-medium cursor-pointer"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <User className="text-white w-6 h-6" />
+              <span className="text-white text-lg font-medium">Connexion</span>
+            </motion.button>
+          )}
         </div>
 
         {/* Mobile Hamburger Button */}
@@ -112,17 +143,37 @@ export default function Navbar() {
           </button>
           </>
           )}
-          {/* Mobile Connexion Button */}
-          <button 
-            onClick={() => {
-              setIsMenuOpen(false);
-              setAuthModal('login');
-            }}
-            className="flex items-center justify-center gap-2 w-full px-6 py-2 bg-blue-main border border-black shadow-md rounded-md text-white font-medium cursor-pointer"
-          >
-            <User className="text-white w-6 h-6" />
-            <span className="text-white text-lg font-medium">Connexion</span>
-          </button>
+
+          {isLoaded && isSignedIn ? (
+            <>
+              <Link
+                href="/dashboard"
+                onClick={() => setIsMenuOpen(false)}
+                className="flex items-center justify-center gap-2 w-full px-6 py-2 bg-blue-main border border-black shadow-md rounded-md text-white font-medium"
+              >
+                <LayoutDashboard className="w-5 h-5" />
+                <span className="text-lg font-medium">{user.firstName || 'Dashboard'}</span>
+              </Link>
+              <button
+                onClick={() => { signOut(); setIsMenuOpen(false); }}
+                className="flex items-center justify-center gap-2 w-full px-6 py-2 border border-gray-300 rounded-md text-gray-700 font-medium"
+              >
+                <LogOut className="w-5 h-5" />
+                <span className="text-lg font-medium">Se déconnecter</span>
+              </button>
+            </>
+          ) : (
+            <button 
+              onClick={() => {
+                setIsMenuOpen(false);
+                setAuthModal('login');
+              }}
+              className="flex items-center justify-center gap-2 w-full px-6 py-2 bg-blue-main border border-black shadow-md rounded-md text-white font-medium cursor-pointer"
+            >
+              <User className="text-white w-6 h-6" />
+              <span className="text-white text-lg font-medium">Connexion</span>
+            </button>
+          )}
         </div>
       )}
     </nav>

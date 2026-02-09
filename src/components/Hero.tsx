@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { MapPin, ArrowRight } from 'lucide-react';
+import { motion } from 'motion/react';
 
 export default function Hero() {
     const scrollToSection = (sectionId: string) => {
@@ -29,41 +30,65 @@ export default function Hero() {
             <div className="container mx-auto px-4 z-10 text-white">
                 <div className="max-w-3xl">
                     {/* Location */}
-                    <div className="flex items-center space-x-2 mb-6">
+                    <motion.div 
+                        className="flex items-center space-x-2 mb-6"
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6, delay: 0.2 }}
+                    >
                         <MapPin className="w-5 h-5 md:w-6 md:h-6 text-blue-light" />
                         <span className="text-base md:text-lg">
                             Djibouti - Afrique de l&apos;Est
                         </span> 
-                    </div>
+                    </motion.div>
 
                     {/* Heading */}
-                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+                    <motion.h1 
+                        className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight"
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8, delay: 0.4 }}
+                    >
                         Explorez l&apos;Afrique de l&apos;Est avec{' '}
                         <span className="text-blue-light">The Rift</span>
-                    </h1>
+                    </motion.h1>
 
                     {/* Subtitle */}
-                    <p className="text-lg md:text-xl lg:text-2xl mb-8 text-gray-200 leading-relaxed">
+                    <motion.p 
+                        className="text-lg md:text-xl lg:text-2xl mb-8 text-gray-200 leading-relaxed"
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8, delay: 0.6 }}
+                    >
                         Votre partenaire de confiance pour les billets d&apos;avion, réservations d&apos;hôtels,
                         excursions inoubliables et facilitation de visa dans toute l&apos;Afrique de l&apos;Est.
-                    </p>
+                    </motion.p>
 
                     {/* Buttons */}
-                    <div className="flex flex-col sm:flex-row gap-4">
-                        <button
-                            className="px-8 py-4 bg-blue-light text-white text-lg font-semibold rounded-lg transition-all hover:bg-blue-main transform hover:scale-105 flex items-center justify-center space-x-2"
+                    <motion.div 
+                        className="flex flex-col sm:flex-row gap-4"
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8, delay: 0.8 }}
+                    >
+                        <motion.button
+                            className="px-8 py-4 bg-blue-light text-white text-lg font-semibold rounded-lg transition-colors hover:bg-blue-main flex items-center justify-center space-x-2"
                             onClick={() => scrollToSection('contact')}
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
                         >
                             <span>Planifier mon voyage</span>
                             <ArrowRight className="w-5 h-5" />
-                        </button>
-                        <button
+                        </motion.button>
+                        <motion.button
                             onClick={() => scrollToSection('services')}
-                            className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white border-2 border-white/50 text-lg font-semibold rounded-lg hover:bg-white/20 transition-all"
+                            className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white border-2 border-white/50 text-lg font-semibold rounded-lg hover:bg-white/20 transition-colors"
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
                         >
                             Découvrir nos services
-                        </button>
-                    </div>
+                        </motion.button>
+                    </motion.div>
                 </div>
             </div>
         </section>

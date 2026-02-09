@@ -1,4 +1,6 @@
+"use client";
 import { Plane, Hotel, Compass, FileText } from 'lucide-react';
+import { motion } from 'motion/react';
 import Card from './ui/Card';
 
 export default function Services() {
@@ -60,14 +62,20 @@ export default function Services() {
   return (
     <section id="services" className="py-20 px-12 bg-gray-50">
       {/* Header */}
-      <div className="text-center mb-16">
+      <motion.div 
+        className="text-center mb-16"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+      >
         <h2 className="text-5xl font-bold text-gray-900 mb-4">
           Nos Services
         </h2>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Une gamme complète de services pour rendre votre voyage en Afrique de l&apos;Est inoubliable
         </p>
-      </div>
+      </motion.div>
 
       {/* Services Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">

@@ -1,3 +1,5 @@
+"use client";
+import { motion } from 'motion/react';
 import Destination from './ui/Destination';
 
 export default function Destinations() {
@@ -49,14 +51,20 @@ export default function Destinations() {
   return (
     <section id="destinations" className="py-20 px-12 bg-white">
       {/* Header */}
-      <div className="text-center mb-16">
+      <motion.div 
+        className="text-center mb-16"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+      >
         <h2 className="text-5xl font-bold text-gray-900 mb-4">
           Destinations en Afrique de l&apos;Est
         </h2>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Explorez les pays fascinants de l&apos;Afrique de l&apos;Est avec nos circuits organisés
         </p>
-      </div>
+      </motion.div>
 
       {/* Destinations Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
