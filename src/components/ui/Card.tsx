@@ -46,7 +46,7 @@ export default function Card({ icon: Icon, title, description, features, button 
       <ul className="space-y-3 mb-8">
         {features.map((feature, index) => (
           <li key={index} className="flex items-start gap-3">
-            <span className="w-2 h-2 bg-blue-light rounded-full mt-2 flex-shrink-0" />
+            <span className="w-2 h-2 bg-blue-light rounded-full mt-2 shrink-0" />
             <span className="text-gray-700 text-sm">{feature}</span>
           </li>
         ))}

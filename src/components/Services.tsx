@@ -29,7 +29,11 @@ export default function Services() {
         'Meilleurs prix garantis',
         'Annulation gratuite',
         'Paiement sécurisé'
-      ]
+      ],
+      button: {
+        text: 'Réserver un hôtel',
+        href: '/hotels'
+      }
     },
     {
       icon: Compass,
@@ -40,7 +44,11 @@ export default function Services() {
         'Circuits personnalisés',
         'Petits groupes',
         'Expériences authentiques'
-      ]
+      ],
+      button: {
+        text: 'Découvrez nos circuits',
+        href: '/excursions'
+      }
     },
     {
       icon: FileText,
