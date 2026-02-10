@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 import { MapPin, Calendar, Users, Search } from 'lucide-react';
+import { searchFlights, Flight } from '../lib/flightService';
+import FlightResults from './FlightResults';
 
 export default function FlightSearch() {
   const [tripType, setTripType] = useState<'round-trip' | 'one-way'>('round-trip');
@@ -13,6 +15,8 @@ export default function FlightSearch() {
     passengers: '1',
     cabinClass: 'economy'
   });
+  const [flights, setFlights] = useState<Flight[]>([]);
+  const [hasSearched, setHasSearched] = useState(false);
 
   const cities = [
     'Djibouti',
@@ -30,8 +34,13 @@ export default function FlightSearch() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Search data:', { tripType, ...formData });
-    // TODO: Implement flight search functionality
+    const results = searchFlights({
+      from: formData.from,
+      to: formData.to,
+      departureDate: formData.departureDate
+    });
+    setFlights(results);
+    setHasSearched(true);
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
@@ -48,6 +57,12 @@ export default function FlightSearch() {
     <div className="container mx-auto px-4 pb-20">
       <div className="bg-white rounded-xl shadow-2xl p-8 -mt-20 relative z-10">
         <form onSubmit={handleSubmit} className="space-y-6">
+          <p className="text-sm text-gray-400">
+            Fonctionnalité en cours de développement - les résultats sont basés sur des données simulées
+          </p>
+          <p className='text-sm text-gray-400'>
+            Pour l'instant, essayez de chercher Djibouti à Addis le 18 février pour tester l'interface.
+          </p>
           {/* Trip Type Selection */}
           <div className="flex flex-wrap gap-4 mb-6">
             <label className="flex items-center space-x-2 cursor-pointer">
@@ -203,6 +218,8 @@ export default function FlightSearch() {
             </div>
           </div>
         </form>
+
+        <FlightResults flights={flights} hasSearched={hasSearched} />
       </div>
     </div>
   );

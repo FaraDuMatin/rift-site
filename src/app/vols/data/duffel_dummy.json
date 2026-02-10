@@ -1,0 +1,2866 @@
+{
+  "data": {
+    "offers": [
+      {
+        "id": "off_0",
+        "total_amount": "749.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "destination": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "departure_date": "2026-02-18",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "947"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_1",
+        "total_amount": "790.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "destination": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "departure_date": "2026-02-27",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "636"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_2",
+        "total_amount": "488.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "destination": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "departure_date": "2026-02-12",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "347"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_3",
+        "total_amount": "494.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "destination": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "departure_date": "2026-02-21",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "432"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_4",
+        "total_amount": "903.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "destination": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "departure_date": "2026-02-16",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "117"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_5",
+        "total_amount": "770.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "destination": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "departure_date": "2026-02-26",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "264"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_6",
+        "total_amount": "889.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "destination": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "departure_date": "2026-02-27",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "383"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_7",
+        "total_amount": "460.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "destination": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "departure_date": "2026-02-20",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "663"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_8",
+        "total_amount": "401.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "destination": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "departure_date": "2026-02-23",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "508"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_9",
+        "total_amount": "458.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "destination": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "departure_date": "2026-02-24",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "108"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_10",
+        "total_amount": "931.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "destination": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "departure_date": "2026-02-11",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "690"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_11",
+        "total_amount": "627.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "destination": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "departure_date": "2026-02-22",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "509"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_12",
+        "total_amount": "512.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "destination": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "departure_date": "2026-02-24",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "249"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_13",
+        "total_amount": "181.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "destination": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "departure_date": "2026-02-15",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "909"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_14",
+        "total_amount": "355.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "destination": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "departure_date": "2026-02-13",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "844"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_15",
+        "total_amount": "838.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "destination": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "departure_date": "2026-02-28",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "955"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_16",
+        "total_amount": "900.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "destination": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "departure_date": "2026-02-27",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "417"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_17",
+        "total_amount": "184.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "destination": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "departure_date": "2026-02-12",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "258"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_18",
+        "total_amount": "770.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "destination": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "departure_date": "2026-02-21",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "681"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_19",
+        "total_amount": "888.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "destination": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "departure_date": "2026-02-13",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "174"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_20",
+        "total_amount": "780.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "destination": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "departure_date": "2026-02-13",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "607"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_21",
+        "total_amount": "542.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "destination": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "departure_date": "2026-02-24",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "108"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_22",
+        "total_amount": "524.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "destination": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "departure_date": "2026-02-14",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "274"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_23",
+        "total_amount": "471.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "destination": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "departure_date": "2026-02-21",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "255"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_24",
+        "total_amount": "538.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "destination": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "departure_date": "2026-02-21",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "870"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_25",
+        "total_amount": "374.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "destination": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "departure_date": "2026-02-26",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_26",
+        "total_amount": "331.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "destination": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "departure_date": "2026-02-26",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "883"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_27",
+        "total_amount": "245.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "destination": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "departure_date": "2026-02-22",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "390"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_28",
+        "total_amount": "519.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "destination": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "departure_date": "2026-02-22",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "836"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_29",
+        "total_amount": "502.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "destination": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "departure_date": "2026-02-14",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "197"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_30",
+        "total_amount": "157.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "destination": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "departure_date": "2026-02-25",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "264"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_31",
+        "total_amount": "259.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "destination": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "departure_date": "2026-02-22",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "633"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_32",
+        "total_amount": "414.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "destination": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "departure_date": "2026-02-26",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "424"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_33",
+        "total_amount": "917.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "destination": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "departure_date": "2026-02-19",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "629"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_34",
+        "total_amount": "772.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "destination": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "departure_date": "2026-02-14",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "932"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_35",
+        "total_amount": "927.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "destination": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "departure_date": "2026-02-22",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "286"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_36",
+        "total_amount": "458.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "destination": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "departure_date": "2026-02-12",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "888"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_37",
+        "total_amount": "874.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "destination": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "departure_date": "2026-02-24",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "523"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_38",
+        "total_amount": "358.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "destination": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "departure_date": "2026-02-11",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "613"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_39",
+        "total_amount": "928.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "destination": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "departure_date": "2026-02-21",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "269"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_40",
+        "total_amount": "308.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "destination": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "departure_date": "2026-02-17",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "949"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_41",
+        "total_amount": "329.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "destination": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "departure_date": "2026-02-28",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "642"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_42",
+        "total_amount": "944.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "destination": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "departure_date": "2026-02-13",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "187"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_43",
+        "total_amount": "192.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "destination": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "departure_date": "2026-02-28",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "291"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_44",
+        "total_amount": "260.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "destination": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "departure_date": "2026-02-24",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "730"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_45",
+        "total_amount": "420.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "destination": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "departure_date": "2026-02-19",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "226"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_46",
+        "total_amount": "788.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "destination": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "departure_date": "2026-02-13",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "411"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_47",
+        "total_amount": "214.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "destination": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "departure_date": "2026-02-13",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "448"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_48",
+        "total_amount": "311.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "destination": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "departure_date": "2026-02-18",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "713"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_49",
+        "total_amount": "874.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "destination": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "departure_date": "2026-02-18",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "533"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_50",
+        "total_amount": "911.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "destination": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "departure_date": "2026-02-23",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "997"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_51",
+        "total_amount": "452.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "destination": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "departure_date": "2026-02-23",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "164"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_52",
+        "total_amount": "371.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "destination": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "departure_date": "2026-02-13",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "908"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_53",
+        "total_amount": "233.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "destination": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "departure_date": "2026-02-15",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "610"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_54",
+        "total_amount": "909.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "destination": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "departure_date": "2026-02-17",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "443"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_55",
+        "total_amount": "257.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "destination": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "departure_date": "2026-02-12",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "276"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_56",
+        "total_amount": "850.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "destination": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "departure_date": "2026-02-11",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "858"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_57",
+        "total_amount": "478.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "destination": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "departure_date": "2026-02-15",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "782"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_58",
+        "total_amount": "289.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "destination": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "departure_date": "2026-02-20",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "503"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_59",
+        "total_amount": "853.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "destination": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "departure_date": "2026-02-16",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "507"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_60",
+        "total_amount": "784.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "destination": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "departure_date": "2026-02-20",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "313"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_61",
+        "total_amount": "664.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "destination": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "departure_date": "2026-02-14",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "862"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_62",
+        "total_amount": "686.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "destination": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "departure_date": "2026-02-20",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "464"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_63",
+        "total_amount": "465.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "destination": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "departure_date": "2026-02-18",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "914"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_64",
+        "total_amount": "157.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "destination": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "departure_date": "2026-02-11",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "481"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_65",
+        "total_amount": "402.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "destination": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "departure_date": "2026-02-17",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "298"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_66",
+        "total_amount": "730.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "destination": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "departure_date": "2026-02-15",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "465"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_67",
+        "total_amount": "371.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "destination": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "departure_date": "2026-02-28",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "741"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_68",
+        "total_amount": "305.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "destination": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "departure_date": "2026-02-24",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "433"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_69",
+        "total_amount": "298.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "destination": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "departure_date": "2026-02-23",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "602"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_70",
+        "total_amount": "318.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "destination": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "departure_date": "2026-02-24",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "483"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_71",
+        "total_amount": "182.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "destination": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "departure_date": "2026-02-24",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "387"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_72",
+        "total_amount": "590.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "destination": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "departure_date": "2026-02-20",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "579"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_73",
+        "total_amount": "824.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "destination": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "departure_date": "2026-02-20",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "527"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_74",
+        "total_amount": "742.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "destination": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "departure_date": "2026-02-28",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "348"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_75",
+        "total_amount": "547.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "destination": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "departure_date": "2026-02-11",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "710"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_76",
+        "total_amount": "214.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "destination": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "departure_date": "2026-02-22",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "763"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_77",
+        "total_amount": "596.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "destination": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "departure_date": "2026-02-14",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "553"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_78",
+        "total_amount": "297.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "destination": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "departure_date": "2026-02-24",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "844"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_79",
+        "total_amount": "186.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "destination": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "departure_date": "2026-02-19",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "992"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_80",
+        "total_amount": "571.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "destination": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "departure_date": "2026-02-18",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "303"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_81",
+        "total_amount": "405.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "destination": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "departure_date": "2026-02-14",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "130"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_82",
+        "total_amount": "536.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "destination": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "departure_date": "2026-02-14",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "714"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_83",
+        "total_amount": "852.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "destination": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "departure_date": "2026-02-26",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "771"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_84",
+        "total_amount": "876.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "destination": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "departure_date": "2026-02-14",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "225"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_85",
+        "total_amount": "519.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "destination": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "departure_date": "2026-02-14",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "173"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_86",
+        "total_amount": "824.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "destination": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "departure_date": "2026-02-16",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "115"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_87",
+        "total_amount": "411.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "destination": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "departure_date": "2026-02-23",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "701"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_88",
+        "total_amount": "733.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "destination": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "departure_date": "2026-02-27",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "548"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_89",
+        "total_amount": "894.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "destination": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "departure_date": "2026-02-17",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "722"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_90",
+        "total_amount": "761.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "destination": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "departure_date": "2026-02-24",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "465"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_91",
+        "total_amount": "353.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "destination": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "departure_date": "2026-02-11",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "236"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_92",
+        "total_amount": "898.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "destination": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "departure_date": "2026-02-13",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "805"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_93",
+        "total_amount": "640.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "destination": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "departure_date": "2026-02-22",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "342"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_94",
+        "total_amount": "805.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "destination": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "departure_date": "2026-02-25",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "456"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_95",
+        "total_amount": "301.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "destination": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "departure_date": "2026-02-21",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "946"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_96",
+        "total_amount": "601.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "destination": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "departure_date": "2026-02-27",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "691"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_97",
+        "total_amount": "284.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "destination": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "departure_date": "2026-02-18",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "354"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_98",
+        "total_amount": "902.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "destination": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "departure_date": "2026-02-22",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "558"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_99",
+        "total_amount": "619.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "destination": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "departure_date": "2026-02-18",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "893"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_100",
+        "total_amount": "327.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "destination": {
+              "iata_code": "JIB",
+              "name": "Djibouti"
+            },
+            "departure_date": "2026-02-22",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "208"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_101",
+        "total_amount": "916.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "destination": {
+              "iata_code": "ADD",
+              "name": "Addis-Abeba"
+            },
+            "departure_date": "2026-02-17",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "423"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_102",
+        "total_amount": "453.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "destination": {
+              "iata_code": "NBO",
+              "name": "Nairobi"
+            },
+            "departure_date": "2026-02-16",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "333"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_103",
+        "total_amount": "821.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "destination": {
+              "iata_code": "DAR",
+              "name": "Dar es Salaam"
+            },
+            "departure_date": "2026-02-23",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "944"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_104",
+        "total_amount": "460.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "destination": {
+              "iata_code": "KGL",
+              "name": "Kigali"
+            },
+            "departure_date": "2026-02-13",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "133"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_105",
+        "total_amount": "393.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "destination": {
+              "iata_code": "EBB",
+              "name": "Kampala"
+            },
+            "departure_date": "2026-02-25",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "718"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_106",
+        "total_amount": "628.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "destination": {
+              "iata_code": "MGQ",
+              "name": "Mogadishu"
+            },
+            "departure_date": "2026-02-22",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "159"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_107",
+        "total_amount": "448.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "destination": {
+              "iata_code": "ASM",
+              "name": "Asmara"
+            },
+            "departure_date": "2026-02-25",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "125"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_108",
+        "total_amount": "583.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "destination": {
+              "iata_code": "CDG",
+              "name": "Paris"
+            },
+            "departure_date": "2026-02-28",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "104"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_109",
+        "total_amount": "620.00",
+        "total_currency": "EUR",
+        "slices": [
+          {
+            "origin": {
+              "iata_code": "IST",
+              "name": "Istanbul"
+            },
+            "destination": {
+              "iata_code": "DXB",
+              "name": "Dubai"
+            },
+            "departure_date": "2026-02-28",
+            "segments": [
+              {
+                "marketing_carrier": {
+                  "name": "TheRift Air"
+                },
+                "marketing_carrier_flight_number": "990"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
