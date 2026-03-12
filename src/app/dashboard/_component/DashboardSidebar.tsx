@@ -10,16 +10,22 @@ import {
   FileText,
   Hotel,
   Compass,
+  Map,
 } from "lucide-react";
 import { motion } from "motion/react";
 
-export type TabId = "dashboard" | "flights" | "visa" | "hotels" | "excursions";
+export type TabId = "dashboard" | "trips" | "flights" | "visa" | "hotels" | "excursions";
 
 const navItems: { icon: typeof LayoutDashboard; label: string; id: TabId }[] = [
   {
     icon: LayoutDashboard,
     label: "Dashboard",
     id: "dashboard",
+  },
+  {
+    icon: Map,
+    label: "Mes Voyages",
+    id: "trips",
   },
   {
     icon: Plane,

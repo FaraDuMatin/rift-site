@@ -8,6 +8,7 @@ import FlightsComponent from "./FlightsComponent";
 import VisaComponent from "./VisaComponent";
 import HotelComponent from "./HotelComponents";
 import ExcursionComponent from "./ExcursionComponent";
+import TravelPlannerMain from "./travel-planner/TravelPlannerMain";
 
 interface DashboardClientProps {
   firstName: string | null;
@@ -28,6 +29,8 @@ export default function DashboardClient({
 
   const renderContent = () => {
     switch (activeTab) {
+      case "trips":
+        return <TravelPlannerMain />;
       case "flights":
         return <FlightsComponent />;
       case "visa":
@@ -42,6 +45,7 @@ export default function DashboardClient({
           <div className="grid lg:grid-cols-3 gap-6">
             {/* Main content */}
             <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {/* <TravelPlannerMain /> */}
               <FlightsComponent />
               <VisaComponent />
               <HotelComponent />
